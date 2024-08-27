@@ -63,12 +63,12 @@ ul{
     color: #ff6452;
     padding: 10px;
 }
-#new h1{
+.new h1{
     font-size: 90px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
-#new{
+.new{
     width: 56%;
     height: 140px;
     background-color: white;
@@ -101,6 +101,7 @@ ul{
 }
 .CB{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     padding: 10px;
     margin-top: 70px;
@@ -140,6 +141,7 @@ ul{
     display: flex;
     gap: 20px;
     padding-top: 40px;
+    flex-wrap: wrap;
 }
 .bxs-star{
     color: #ff6452;
@@ -175,13 +177,15 @@ ul{
     line-height: 140%;
 }
 .text button{
-    color: white;
     border: none;
-    padding: 17px;
-    /* padding-right: 70px; */
+    color: white;
     background-color: #ff6452;
+    padding: 15px 15px 15px 15px;
     border-radius: 30px;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* margin: 50px; */
+    /* margin-bottom: 150px; */
 }
 /* SECTION 4 (WHAT TO EXPECT) */
 .secIV{
@@ -194,6 +198,7 @@ ul{
     align-items: center;
     gap: 40px;
     padding: 50px;
+    flex-wrap: wrap;
 }
 .WTE{
     background-color: white;
@@ -248,16 +253,18 @@ ul{
     line-height: 30px;
 }
 #Show{
+    border: none;
     color: white;
     background-color: #ff6452;
-    border: none;
-    padding: 18px;
+    padding: 15px 15px 15px 15px;
     border-radius: 30px;
-    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     margin: 15px;
+    /* margin-bottom: 150px; */
 }
 #view{
-    padding: 18px;
+    padding: 15px 15px 15px 15px;
     background-color: white;
     border: 1px solid silver;
     border-radius: 30px;
@@ -342,6 +349,7 @@ ul{
     padding: 50px;
     margin-bottom: 100px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 .rev i{
     text-align: center;
@@ -370,8 +378,7 @@ ul{
     
 }
 input:focus{
-    outline: red;
-    border: 1px solid red;
+    outline: none;
 }
 :placeholder-shown{
     border: none;
@@ -386,18 +393,19 @@ input:focus{
 }
 .inp button{
     border: none;
-    background-color: #ff6452;
     color: white;
-    padding: 15px;
-    font-size: larger;
-    border-radius: 40px;
-    /* display: flex;
-    align-self: flex-end;
-    justify-self: flex-end; */
+    background-color: #ff6452;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* margin: 50px; */
+    /* margin-bottom: 150px; */
     
 }
 .reachout{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 190px;
